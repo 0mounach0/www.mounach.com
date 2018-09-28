@@ -1,0 +1,68 @@
+/* small devices */
+@media only screen and (max-width: 767px) {
+    .navbar.navbar-expand-lg {
+        background-color: #fff !important;
+        border-color: #B8A48C !important;
+    }
+    
+    .header-text h1 {
+        font-size: 40px;
+    }
+    
+    .header-text p {
+        font-size: 15px;  
+    }
+    
+    .scrollUp a {
+        opacity: 0 !important;   
+    }
+    
+    .contact .section-title {
+        padding-bottom: 20px;
+    }
+    
+    .contact .section-title p{
+        font-size: 15px;
+    }
+
+    .contact .section-title p .wantToWork {
+        font-size: 20px;
+    }
+    
+    #message {
+    height: 100px;
+    }
+    
+    .footer .logo_botton {
+        margin-left: 0%;
+    }
+    
+    .social-icons {
+    margin-left: 0%;
+    }
+    
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    
+}
+
+/* medium devices, desktop */
+@media only screen and (max-width: 992px) {
+    .navbar .navbar-nav > li > a {
+        padding-left: 5%;
+    }
+    
+}
+
+/* large devices, wide screens */
+@media only screen and (max-width: 1200px) {
+    
+    
+}
